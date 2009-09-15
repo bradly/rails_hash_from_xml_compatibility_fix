@@ -1,0 +1,1 @@
+require 'rails_hash_from_xml_compatibility_fix'

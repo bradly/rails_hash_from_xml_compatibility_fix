@@ -1,0 +1,9 @@
+RailsHashFromXmlCompatibilityFix
+================================
+
+Reverts Hash.from_xml to use .underscore as it did in versions previous to Rails 2.3.4
+
+Here is the Rails commit we are reverting.
+http://github.com/rails/rails/commit/ebe8dd6108ab9b2ecd74bacf7fa128e9d4f28e4e
+
+Copyright (c) 2009 Bradly Feeley, released under the MIT license
